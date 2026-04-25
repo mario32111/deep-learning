@@ -13,3 +13,43 @@ Thumbs.db
 # Ignorar entornos virtuales comunes
 venv/
 env/
+
+# Ignorar datasets y datos crudos
+data/
+datasets/
+dataset/
+*.csv
+*.tsv
+*.json
+*.parquet
+
+# Ignorar archivos de audio (datasets)
+*.wav
+*.mp3
+*.flac
+*.ogg
+
+# Ignorar archivos de imagen en carpetas de datos
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+*.gif
+
+# Ignorar archivos de arrays / modelos guardados
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.pt
+*.pth
+
+# Ignorar archivos comprimidos (zips de datasets)
+*.zip
+*.tar
+*.tar.gz
+*.gz
+*.rar
